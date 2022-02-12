@@ -1,0 +1,16 @@
+<html>
+ <head></head>
+ <body>
+  <p>Ваша задача - спроектировать и реализовать класс официанта. Официант умеет принимать блюдо в заказ и в конце повторять, что было заказано. Также он вежлив и представляется.</p> 
+  <p><strong>Требования</strong></p> 
+  <ul> 
+   <li>имя класса Waiter</li> 
+   <li>сигнатура конструктора: (name: String, order: List[String])</li> 
+   <li>метод для заказа блюда giveMe, принимает название блюда</li> 
+   <li>метод complete, возвращает список того, что было заказано</li> 
+   <li>при своем появлении официант здоровается с гостем (ровно один раз)</li> 
+   <li>необходимо, чтобы была возможна следующая запись</li> 
+  </ul> 
+  <pre><code>val positions = waiter.giveMe("борщ").giveMe("хлеб").complete()</code></pre>
+ </body>
+</html><br><b>Sample Input:</b><br><pre><code class="language-no-highlight">иван борщ хлеб</code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">My name иван<br>Order: борщ,хлеб<br></code></pre><br><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 9 seconds</font><br><br>

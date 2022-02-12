@@ -1,0 +1,9 @@
+type: code
+files:
+- name: src/Point.scala
+  visible: true
+  text: "// Main реализовывать не нужно    \n// напишите вашу реализацию компаньон\
+    а Point\nclass Point(x: Double, y: Double, z: Double)"
+  learner_created: false
+status: Unchecked
+record: -1

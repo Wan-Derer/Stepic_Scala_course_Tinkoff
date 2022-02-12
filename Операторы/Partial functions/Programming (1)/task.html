@@ -1,0 +1,22 @@
+<html>
+ <head></head>
+ <body>
+  <p>В магазине красок проводится акция: на банки краски объемом от 5 до 10 литров (включительно) скидка 5%, на банки больше 10 литров - 10%.<br> Одна банка представлена кейс классом <span style="color: #000000;"><code>Jar(name: String, value: Int, price: Double)</code></span>, где <span style="color: #000000;"><code>name</code></span> - артикул, <span style="color: #000000;"><code>value</code></span> - объем, <span style="color: #000000;"><code>price</code></span> - цена в рублях.<br> Напишите частичную функцию <span style="color: #000000;"><code>discount</code></span>, которая при подстановке в метод <span style="color: #000000;"><code>collect</code></span> списка банок, превратит его в список строк. Каждая строка должна состоять из артикула и размера скидки в рублях, записанных через пробел. В список должны входить <em>только товары с ненулевой скидкой</em>.</p> 
+  <p>&nbsp;</p> 
+  <p>Пример использования функции:</p> 
+  <pre><code class="language-scala">case class Jar(name: String, value: Int, price: Double) 
+val jars = List(Jar("Морской синий 6л", 6, 3000), Jar("Огненно-красный 12л", 12, 5000))
+jars.collect(discount)</code></pre> 
+  <p><br> <em>Ничего считывать и выводить в консоль не нужно. Просто реализуйте функцию.﻿</em><br> <br> Начальный список:</p> 
+  <pre><code class="language-scala">List(
+  Jar("Морской синий 6л", 6, 3000.0),
+  Jar("Огненно-красный 12л", 12, 5000.0),
+  Jar("Зеленый 1л", 1, 500.0)
+)</code></pre> 
+  <p>После применения функции:</p> 
+  <pre><code class="language-scala">List(
+  "Морской синий 6л 150.0",
+  "Огненно-красный 12л 500.0"
+)</code></pre>
+ </body>
+</html><br><b>Sample Input:</b><br><pre><code class="language-no-highlight">Морской синий 6л, 6, 3000.0<br>Огненно-красный 12л, 12, 5000.0<br>Зеленый 1л, 1, 500.0</code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">Морской синий 6л 150.0<br>Огненно-красный 12л 500.0</code></pre><br><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 9 seconds</font><br><br>

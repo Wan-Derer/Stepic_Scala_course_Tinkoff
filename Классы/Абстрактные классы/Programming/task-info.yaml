@@ -1,0 +1,13 @@
+type: code
+files:
+- name: src/Main.scala
+  visible: true
+  text: |-
+    val tokenDeleter = new // ???
+
+    val shortener = new // ???
+
+    val toLowerConvertor = new // ???
+  learner_created: false
+status: Unchecked
+record: -1

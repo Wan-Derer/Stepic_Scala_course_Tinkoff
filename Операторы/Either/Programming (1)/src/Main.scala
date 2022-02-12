@@ -1,0 +1,1 @@
+def foo(options: List[Option[Int]]): List[Int] = ???

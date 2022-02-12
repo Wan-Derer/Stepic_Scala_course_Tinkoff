@@ -1,0 +1,16 @@
+<html>
+ <head></head>
+ <body>
+  <p> Дан трейт</p> 
+  <pre><code class="language-scala">trait StringProcessor {
+  def process(input: String): String
+}</code></pre> 
+  <p> Напишите несколько его реализаций:</p> 
+  <ol> 
+   <li><strong>tokenDeleter </strong>- в методе process обрабатывает строку, удаляя из неё перечисленные знаки препинания: запятая, двоеточие, точка с запятой.</li> 
+   <li><strong>toLowerConvertor</strong> - заменяет все прописные буквы на строчные.</li> 
+   <li><strong>shortener</strong> - если строка имеет размер больше 20 символов, он оставляет первые 20 и добавляет к ней "...".</li> 
+  </ol> 
+  <p>&nbsp; Реализовывать ввод/вывод <em>не нужно</em>.</p>
+ </body>
+</html><br><b>Sample Input:</b><br><pre><code class="language-no-highlight">This is a Wonderful Test!</code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">this is a wonderful ...</code></pre><br><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 9 seconds</font><br><br>

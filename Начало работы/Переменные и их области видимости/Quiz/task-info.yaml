@@ -1,0 +1,30 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: сообщение об ошибке
+- text: 7,10
+- text: 5,8
+- text: 5,10
+- text: зависит отсреды выполнения
+- text: 7,8
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: src/Task.scala
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    object Task {
+      def main(args: Array[String]): Unit = {
+        // put your code here
+      }
+    }
+  learner_created: false
+status: Solved
+feedback:
+  message: Correct solution
+  time: Thu, 14 Oct 2021 05:17:38 UTC
+record: -1
+selected_options:
+- 3
