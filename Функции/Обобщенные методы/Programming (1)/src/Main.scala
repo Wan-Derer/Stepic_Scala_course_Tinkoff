@@ -1,5 +1,7 @@
-def middle(data: ???) = {
-  //put your code here
+def middle[T](data: Iterable[T]): T = {
+
+    data.splitAt(data.size/2)._2.head
+
 }
 
 require(middle("Scala") == 'a')

@@ -1,5 +1,5 @@
-def sendGift(currentAmount: Int, gift: Int) = {
-    if (currentAmount >= 500) 
+def sendGift(currentAmount: Int, gift: => Int) = {
+    if (currentAmount >= 500)
         currentAmount + gift
     else
         currentAmount
