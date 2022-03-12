@@ -2,6 +2,13 @@
 
 object Task {
   def main(args: Array[String]): Unit = {
-    // put your code here
+    "Alexander" match {
+      case "Alexey" => 1
+      case "alexander" => 2
+      case "Alex" => 3
+      case "Oleg" => 4
+    }
+
+
   }
 }

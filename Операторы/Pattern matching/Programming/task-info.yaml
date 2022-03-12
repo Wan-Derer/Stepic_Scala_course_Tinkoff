@@ -8,5 +8,8 @@ files:
     }
     println(kind)
   learner_created: false
+- name: src/dog.scala
+  visible: true
+  learner_created: true
 status: Unchecked
 record: -1

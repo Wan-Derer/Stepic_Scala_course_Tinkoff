@@ -1,7 +1,10 @@
-// You can experiment here, it won’t be checked
 
 object Task {
   def main(args: Array[String]): Unit = {
-    // put your code here
+//    for (i <- 1 to 10, j <- 1 to 10) { println(i + j) }
+    for (i <- 1 to 10; j <- 1 to 10) { println(i + j) }
+    for {i <-1 to 10; j <- 1 to 10} println(i + j)
+    for (i <- 1 to 10; j <- 1 to 10) println(i + j)
+
   }
 }
